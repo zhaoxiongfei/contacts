@@ -1,1 +1,45 @@
-<mxfile host="app.diagrams.net" modified="2022-09-29T10:46:35.086Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" version="20.3.7" etag="ugg3wP972UXphzJ1O2I4" type="github"><diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">7VpNc5swEP01PnYGEHbcY+PmY6ZOJjM+9KwgBdQK5BHCmPz6SkYyn8EkxglOmkvQYxHSe6vdlfAELMLtDYfr4I4hTCeOhbYT8HPiOLbjAPlPIVmOzNxpDvicIG1UACvyjDVoaTQhCMcVQ8EYFWRdBT0WRdgTFQxyztKq2ROj1beuoY8bwMqDtIn+JkgEOTp3Lgr8FhM/MG+2Z9/zOyE0xnomcQARS0sQuJqABWdM5FfhdoGpIs/wkj93/cLd/cA4jkSfB9D9Nrv/deFdzB+X6SZG+O52+s3Wo91AmugZP0h69YhFZmiIUxJSGMnWZSBCKkFbXnoBoWgJM5aoEcQCen9N65LjWIr5YIZn16A7qFzEUv0xTp5ZJCDVgOyHC+0JTtVipV6hzZrz15RsMBd4W4I0HzeYhVjwTJrs3VNrk9XaaSG1O9VYUJIZzDQItXv5+74LBeSFFuEVghjHKgnSEAMj6aK6ybgImM8iSK8K9JKzJEIYaaYKmyVjay3GHyxEplmGiWBVZRGMg93zqoEj9EMtJdmM2M4HJHJNKH1RiU5fi1nCPdzFgasXOuQ+7urRmeWGipBOvTmmUJBNdU0Prh2wP0KqkjoehXFMvIpA9ikEmvcUCFjjEmj6X6AaI+64BJp/FYFmfQUaPMTtHpXzhVnJYM1IJOJSzw8KKGXKeTVTArdWbNTsXavTXl7kIyhcZT+VI3Kn1cidS1WzOFYzMLcXNB2lx9tyXf9apK30AC2lx75GGb70mI6i9OjJ8L6sPrjUQN9qYlyx0Iy7Uw5K5UZI0Z4GRODVGu6oSOVe7ChS+7utW13nbosXtzixezIfdg+TVvXQA8Q9ycV/DUNC1QRvMd1gQTyob2gfth3dXjDK+O4lwNr9SRxS4kcqs0jmMT+lFPXdDGhqMW/R4mRbGdDHgc8pu/cOOYb5w9ndGVXIAc0E+mVWTz2Sffjqcc4h/O8PQsYS/+0Ga7oEbLI32hKw6zTqnUvC5vHgmYdwsxMYbINmttojCeFm3J8ghB99nPvRIdy4RqcWAQsfk/hT6eCMLSk0U6lOCuDskkIrme+bFMA4PlEMmBTM+A/W9X0/TAx/anecYp9nV2yW8pvr+pai6n3r+j4JevxJ4dU61HcKLcl5oKQgm8VX9fxsufhtArj6Bw==</diagram></mxfile>
+<mxfile host="app.diagrams.net" modified="2022-09-29T11:07:04.020Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/105.0.0.0 Safari/537.36" etag="wDpQ4PuqX0QP3FiBu2rp" version="20.3.7" type="github">
+  <diagram id="prtHgNgQTEPvFCAcTncT" name="Page-1">
+    <mxGraphModel dx="1018" dy="690" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+      <root>
+        <mxCell id="0" />
+        <mxCell id="1" parent="0" />
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-14" value="Pool" style="swimlane;childLayout=stackLayout;resizeParent=1;resizeParentMax=0;startSize=20;horizontal=0;horizontalStack=1;" vertex="1" parent="1">
+          <mxGeometry x="190" y="80" width="420" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-15" value="User" style="swimlane;startSize=20;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-14">
+          <mxGeometry x="20" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-24" value="用户点击下载" style="ellipse;whiteSpace=wrap;html=1;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-15">
+          <mxGeometry x="10" y="35" width="80" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-29" value="用户浏览器下载得到文件" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-15">
+          <mxGeometry x="5" y="260" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-16" value="Page" style="swimlane;startSize=20;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-14">
+          <mxGeometry x="150" width="140" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-19" value="下载单页按钮" style="rounded=1;whiteSpace=wrap;html=1;fillColor=#ffe6cc;strokeColor=#d79b00;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-16">
+          <mxGeometry x="10" y="50" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-17" value="Main service" style="swimlane;startSize=20;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-14">
+          <mxGeometry x="290" width="130" height="560" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-22" value="version.download&lt;br&gt;接口" style="rounded=1;whiteSpace=wrap;html=1;" vertex="1" parent="-sAHJOVvS15gpbQYxr0W-17">
+          <mxGeometry x="10" y="50" width="110" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-23" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;" edge="1" parent="-sAHJOVvS15gpbQYxr0W-14" source="-sAHJOVvS15gpbQYxr0W-19" target="-sAHJOVvS15gpbQYxr0W-22">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-26" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.25;entryDx=0;entryDy=0;" edge="1" parent="-sAHJOVvS15gpbQYxr0W-14" source="-sAHJOVvS15gpbQYxr0W-24" target="-sAHJOVvS15gpbQYxr0W-19">
+          <mxGeometry relative="1" as="geometry" />
+        </mxCell>
+        <mxCell id="-sAHJOVvS15gpbQYxr0W-27" value="302 跳转到具体的下载地址" style="edgeStyle=orthogonalEdgeStyle;rounded=0;orthogonalLoop=1;jettySize=auto;html=1;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1" source="-sAHJOVvS15gpbQYxr0W-22">
+          <mxGeometry relative="1" as="geometry">
+            <mxPoint x="270" y="340" as="targetPoint" />
+          </mxGeometry>
+        </mxCell>
+      </root>
+    </mxGraphModel>
+  </diagram>
+</mxfile>
